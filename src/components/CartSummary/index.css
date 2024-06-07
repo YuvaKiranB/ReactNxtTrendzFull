@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.mainContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.summaryContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.orderTotalHeading {
+  font-family: roboto;
+  font-size: 24px;
+  font-weight: 500;
+  color: #616e7c;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.orderTotalSpan {
+  font-size: 28px;
+  font-weight: 600;
+  color: #171f46;
+}
+
+.itemsCountPara {
+  font-family: roboto;
+  margin-top: 5px;
+  color: #616e7c;
+}
+
+.checkoutButton {
+  height: 50px;
+  font-size: 16px;
+  background-color: #0b69ff;
+  border-width: 0px;
+  color: white;
+  font-family: roboto;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .checkoutButton {
+    align-self: stretch;
+  }
+}
+
+@media (min-width: 768px) {
+  .checkoutButton {
+    width: 240px;
+  }
+}
